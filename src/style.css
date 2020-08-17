@@ -1,0 +1,93 @@
+* {
+  text-decoration: none;
+  color: black;
+}
+p {
+  margin: 2px;
+  padding: 2px;
+}
+hr {
+  border: 1px solid black;
+  margin: 1px;
+  width: 90%;
+}
+.navbar {
+  position: sticky;
+  display: flex;
+  padding: 1em;
+  border-bottom: 1px solid black;
+}
+.thelogo {
+  height: 3em;
+}
+.mainSearchBar {
+  margin: 1em;
+  width: 60%;
+  height: 3em;
+  padding: 0 1em;
+}
+.searchBar {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+@media (max-width: 480px) {
+  .navbar {
+    justify-content: center;
+  }
+}
+.homeComp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.post {
+  border: 1px solid black;
+  border-radius: 2em;
+  padding: 0 2em 2em;
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  cursor: pointer;
+}
+.allPostBlock {
+  width: 80%;
+}
+.commentBody {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  align-items: center;
+}
+
+@media (max-width: 480px) {
+  .commentBody {
+    width: 100%;
+  }
+}
+.userDatabody {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  align-items: flex-end;
+}
+.commentItem {
+  /* border-left: 1px solid black; */
+  margin-left: 10px;
+  margin-bottom: 10px;
+  padding: 1em;
+}
+.commentBodyItem {
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+  border-bottom: 1px solid black;
+  padding: 1em;
+}
+.addCommentBtn {
+  background-color: cyan;
+  cursor: pointer;
+}

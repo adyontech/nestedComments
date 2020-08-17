@@ -1,0 +1,12 @@
+{
+  "name": "react-router",
+  "version": "1.0.0",
+  "description": "An example of React Router copied from https://reacttraining.com/react-router/web/guides/quick-start.",
+  "keywords": [],
+  "main": "index.js",
+  "dependencies": {
+    "react-router-dom": "4.0.0",
+    "react-dom": "15.4.2",
+    "react": "15.4.2"
+  }
+}
